@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/coffeehouse.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="index.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="about.html" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+  </div>
+</div>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">CHICKENPOX</span></h5>
+    <img src="https://thumbs.dreamstime.com/b/girl-chickenpox-meet-doctor-illustration-girl-chickenpox-meet-doctor-129974984.jpg">
+    <p><strong>
+      What is chickenpox?
+    </strong>
+    <p> <br>
+      Chickenpox is a very contagious infection caused by the varicella-zoster virus. It mainly affects kids, but adults can get it, too. The telltale sign of chickenpox is a super-itchy skin rash with red blisters. Over the course of several days, the blisters pop and start to leak. Then they crust and scab over before finally healing.
+      
+        </p>
+    </p>
+    <p><strong>What are the symptoms of Chickenpox?</strong><br>
+      Symptoms of chickenpox such as:
+      Body aches
+      Fever
+      Feeling extremely tired (fatigue)
+      Feeling irritable
+      Loss of appetite
+      Headache
+      
+        </p>
+        <p><strong>What causes Chickenpox?</strong></p>
+      
+        Chickenpox is a highly contagious disease caused by the varicella-zoster virus (VZV). It can cause an itchy, blister-like rash among other symptoms. The rash first appears on the chest, back, and face, and then spreads over the entire body.
+
+        <br>
+<p><strong>
+    What are the diagnosis and precautions to take at home?
+    </strong></p>
+    There are several things that you can do at home to help relieve chickenpox symptoms and prevent skin infections. Calamine lotion and a cool bath with added baking soda, uncooked oatmeal, or colloidal oatmeal may help relieve some of the itching.
+
+<p><strong>What are the prescribed medicines for Chickenpox?</strong></p>
+
+If you or your child are at high risk of complications, your doctor may suggest an antiviral drug such as acyclovir (Zovirax, Sitavig). This medication might lessen the severity of chickenpox when given within 24 hours after the rash first appears.
+Acyclovir:Acyclovir (or acyclovir) is an antiviral medicine. It treats a range of infections caused by herpes viruses, including cold sores. genital herpes.
+ 
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+             
+                <strong><p><br><Br><br>
+                    Email:</strong><br>2021pietcasimmi053@poornima.org<br><br> 2021pietcavaishnavi058.poornima.org <BR><BR>2021pietcaraksha041.poornima.org
+                </p></p>
+             
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+  
+            </ul>
+          </div>
+
+
+          </div>
+
+      </div>
+    </div>
+      </div>
+    </div>
+  </footer>
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>

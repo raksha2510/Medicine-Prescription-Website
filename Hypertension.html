@@ -1,0 +1,161 @@
+Sample For Disease.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/coffeehouse.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="index.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="about.html" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+  </div>
+</div>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">HYPERTENSION</span></h5>
+    <img src="https://media.istockphoto.com/id/1295615803/vector/tiny-doctors-examining-heart-health-flat-vector-illustration.jpg?s=612x612&w=0&k=20&c=lbgCsYF0hocLsxUP3qr7amT5LgRYFtTNbs4aBah_Bz0=" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>
+What is hypertension?
+    </strong>
+    <p> <br>
+        High blood pressure is a common condition that affects the body's arteries. It's also called hypertension. If you have high blood pressure, the force of the blood pushing against the artery walls is consistently too high. The heart has to work harder to pump blood.
+
+        </p>
+    </p>
+    <p><strong>What are the symptoms of hypertension?</strong><br>
+        1.Early morning headaches<br>
+        2.Nosebleeds<br>
+        3.Vision changes<br>
+        4.Chest pain<br>
+        5.Vomiting<br>
+        6.Chest pain <br>
+        7.Muscle tremors<br>
+        
+        </p>
+        <p><strong>What causes Hypertension?</strong></p>
+      
+        Things that can increase your risk of getting hypertension:<br>
+overweight.<br>
+eat too much salt and do not eat enough fruit and vegetables.<br>
+do not do enough exercise.<br>
+drink too much alcohol or coffee (or other caffeine-based drinks)<br>
+smoking<br>
+do not get much sleep or have disturbed sleep.<br>
+over the age of 65.<br>
+
+        <br>
+<p><strong>
+    What are the diagnosis and precautions to take at home?
+    </strong></p>
+    Your health care provider may recommend that you make lifestyle changes including:<br>
+Eating a heart-healthy diet with less salt.<br>
+Getting regular physical activity.<br>
+Maintaining a healthy weight or losing weight.<br>
+Limiting alcohol.<br>
+Not smoking.<br>
+Getting 7 to 9 hours of sleep daily.<br>
+
+<p><strong>What are the prescribed medicines for Hypertension?</strong></p>
+Angiotensin-converting enzyme (ACE) inhibitors reduce blood pressure by relaxing your blood vessels.
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+             
+                <strong><p><br><Br><br>
+                    Email:</strong><br>2021pietcasimmi053@poornima.org<br><br> 2021pietcavaishnavi058.poornima.org <BR><BR>2021pietcaraksha041.poornima.org
+                </p></p>
+             
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+  
+            </ul>
+          </div>
+
+
+          </div>
+
+      </div>
+    </div>
+      </div>
+    </div>
+  </footer>
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/coffeehouse.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="index.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="about.html" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+  </div>
+</div>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ACNE</span></h5>
+    <img src="data:image/jpeg;base64,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" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>
+What is Acne?
+    </strong>
+    <p> <br>
+      Acne is a common skin condition that happens when hair follicles under the skin become clogged. Sebum—oil that helps keep skin from drying out—and dead skin cells plug the pores, which leads to outbreaks of lesions, commonly called pimples or zits. Most often, the outbreaks occur on the face but can also appear on the back, chest, and shoulders.
+
+        </p>
+    </p>
+    <p><strong>What are the symptoms of Acne?</strong><br>
+      Whiteheads
+Blackheads
+Small red,tender bumps
+Large,solid,painful lumps under the skin
+
+        </p>
+        <p><strong>What causes Acne?</strong></p>
+      
+Excess or high production of oil in the pore.
+Buildup of dead skin cells in the pore.
+Growth of bacteria in the pore.
+
+        <br>
+<p><strong>
+    What are the diagnosis and precautions to take at home?
+    </strong></p>
+    Daily Skin Care such as:
+Clean your skin gently with a mild, non-drying soap.
+It may help to use a wash with salicylic acid or benzoyl if your skin is oily and prone to acne.
+Wash once or twice a day, and also after exercising.
+Shampoo your hair daily, if it is oily.
+Comb or pull your hair back to keep the hair out of your face.
+
+<p><strong>What are the prescribed medicines for Acne?</strong></p>
+
+Usually the first choice for treating acne is a tetracycline (minocycline, doxycycline) or a macrolide (erythromycin, azithromycin). A macrolide might be an option for people who can't take tetracyclines, including pregnant women and children under 8 years old.
+    </div>
+  </div>
+</div>
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+             
+                <strong><p><br><Br><br>
+                    Email:</strong><br>2021pietcasimmi053@poornima.org<br><br> 2021pietcavaishnavi058.poornima.org <BR><BR>2021pietcaraksha041.poornima.org
+                </p></p>
+             
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+  
+            </ul>
+          </div>
+
+
+          </div>
+
+      </div>
+    </div>
+      </div>
+    </div>
+  </footer>
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>

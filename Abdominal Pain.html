@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/coffeehouse.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="index.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="about.html" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+  </div>
+</div>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABDOMINAL PAIN</span></h5>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm_zMeCTjLqcibhbTAJOqQXH1Jm1DOuvAOaSzWdzsv8jufls5SksCwy3iGV-njHkiI0cE&usqp=CAU" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>
+What is Abdominal Pain?
+    </strong>
+    <p> <br> 
+Abdominal pain is discomfort anywhere in your belly region  between your ribs and your pelvis. We often think of abdominal pain as stomach ache, but pain in your abdomen could be coming from other organs too
+
+        </p>
+    </p>
+    <p><strong>What are the symptoms of Abdominal pain?</strong><br>
+     
+1.Severe pain<br>
+2.Fever<br>
+3.Bloody stools<br>
+4.Persistent nausea and vomiting<br>
+5.Weight loss<br>
+6.Skin that appears yellow<br>
+7.Severe tenderness when you touch your abdomen<br>
+8.Swelling of the abdomen
+
+        </p>
+        <p><strong>What causes Abdomial Pain?</strong></p>
+        Less serious causes of abdominal pain include: <br>
+        1.Constipation<br>
+        2.Irritable bowel syndrome<br>
+        3.Food allergies<br>
+        4.Lactose intolerance<br>
+        5.Food poisoning<br>
+        6.Stomach virus<br>
+        7.Gas pain<br>
+        8.Indigestion 
+        
+        <br>
+<p><strong>
+    What are the diagnosis and precautions to take at home?
+    </strong></p>
+    Common causes of abdominal pain such as gas pain,indigestion will likely go away within a few hours to day,even without treatment.You can try over-the-counter(otc) medications for faster relief.
+    Other causes of abdominal pain,such as food poisoning,gastritis,may go away after the stomach or intestinal lining has a chance to heal.
+    
+<p><strong>What are the prescribed medicines for Abdominal Pain?</strong></p>
+1.Antibiotics for bacterial causes<br>
+2.Acid reducers and acid blockers<br>
+3.Pepto-bismol<br>
+4.Electrolyte replacement fluids for vomiting or diarrhea to prevent dehydration
+ 
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+             
+                <strong><p><br><Br><br>
+                    Email:</strong><br>2021pietcasimmi053@poornima.org<br><br> 2021pietcavaishnavi058.poornima.org <BR><BR>2021pietcaraksha041.poornima.org
+                </p></p>
+             
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+  
+            </ul>
+          </div>
+
+
+          </div>
+
+      </div>
+    </div>
+      </div>
+    </div>
+  </footer>
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>

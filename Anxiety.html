@@ -1,0 +1,169 @@
+Sample For Disease.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/coffeehouse.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="index.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="about.html" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+  </div>
+</div>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ANXIETY</span></h5>
+    <img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-overwhelmed-people-illustration_23-2149336215.jpg?w=2000" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>
+What is anxiety?
+    </strong>
+    <p> <br>
+        Anxiety is your body’s natural response to stress. It’s a feeling of fear or apprehension about what’s to come. For example, going to a job interview or giving a speech on the first day of school may cause some people to feel fearful and nervous.
+        But if your feelings of anxiety are extreme, last for at least 6 months, and are interfering with your life, you may have an anxiety disorder.
+        
+        </p>
+    </p>
+    <p><strong>What are the symptoms of anxiety?</strong><br>
+        1.Feeling nervous,restless or tense<BR>
+
+        2.Having a sense of impending danger,panic or doom<BR>
+        
+        3.Sweating<BR>
+        
+        4.Trembling<BR>
+        
+        5.Feeling weak or tired<BR>
+        
+        </p>
+        <p><strong>What causes of anxiety?</strong></p>
+      
+        The causes of anxiety may include:<BR>
+Stress<BR>
+Other medical issues such as depression or diabetes<BR>
+First degree relatives with generalised anxiety disorder<BR>
+Environmental concerns, such as child abuse<BR>
+Substance use<BR>
+Situations such as surgery or occupational hazard<BR>
+
+        <br>
+<p><strong>
+    What are the diagnosis and precautions to take at home?
+    </strong></p>
+    Home Remedies for Anxiety :<BR>
+Keep physically active<BR>
+Avoid alcohol and recreational drugs<BR>
+Quit smoking and cut back or quit drinking caffeinated beverages<BR>
+Discuss your concerns<BR>
+Use stress management and relaxation techniques<BR>
+Learn to relax<BR>
+Make sleep a priority<BR>
+Eat healthy<BR>
+
+<p><strong>What are the prescribed medicines for Viral Fever?</strong></p>
+
+Benzodiazepines help treat many kinds of anxiety disorders, including panic disorder, generalised anxiety disorder, and social anxiety disorder.<BR>
+Benzodiazepines drugs name:-<BR>
+Alprazolam (Xanax),chlordiazepoxide (Librium),clonazepam (Klonopin),diazepam (Valium),orazepam (Ativan)<BR>
+ 
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+             
+                <strong><p><br><Br><br>
+                    Email:</strong><br>2021pietcasimmi053@poornima.org<br><br> 2021pietcavaishnavi058.poornima.org <BR><BR>2021pietcaraksha041.poornima.org
+                </p></p>
+             
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+  
+            </ul>
+          </div>
+
+
+          </div>
+
+      </div>
+    </div>
+      </div>
+    </div>
+  </footer>
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>

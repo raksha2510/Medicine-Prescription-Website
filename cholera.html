@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/coffeehouse.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="index.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="about.html" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+  </div>
+</div>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">CHOLERA</span></h5>
+    <img src="https://img.freepik.com/premium-photo/colony-vibrio-cholera-seen-by-electron-microscope_59529-1010.jpg?w=2000" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>
+What is Cholera?
+    </strong>
+    <p> <br>
+      Cholera is an acute diarrhoeal infection caused by ingestion of food or water contaminated with the bacterium Vibrio cholerae.Cholera causes severe diarrhea and dehydration. Left untreated, cholera can be fatal within hours, even in previously healthy people.
+
+        </p>
+    </p>
+    <p><strong>What are the symptoms of Cholera?</strong><br>
+      1.Diarrhea<br>
+      2.Nausea and vomiting<br>
+      3.Dehydration<br>
+         
+        </p>
+        <p><strong>What causes Cholera?</strong></p>
+        A bacteria called Vibrio cholerae present in the contaminated water causes cholera infection. This bacteria produces a toxin in the small intestine which eventually results into the death of the infected person.The toxin causes the body to secrete enormous amounts of water, leading to diarrhea and a rapid loss of fluids and salts (electrolytes).
+
+        <br>
+<p><strong>
+    What are the diagnosis and precautions to take at home?
+    </strong></p>
+    1.Wash your hand with soap or water frequently.<br>
+    2.Drink only safe water.<br>
+    3.Eat food that is completely cooked and hot.<br>
+    4.Avoid any kind of seafood.<br>
+    5.Stick to fruits and vegetables that you can peel yourself.
+  
+<p><strong>What are the prescribed medicines for Cholera?</strong></p>
+1.Furazolidone:Furazolidone is used to treat bacterial and protozoal infections. Some protozoa are parasites that can cause many different kinds of infections in the body.<br>
+2.Ampicillin:Ampicillin is used to treat certain infections that are caused by bacteria and infections of the throat, sinuses, lungs, reproductive organs, urinary tract, and gastrointestinal tract.<br>
+3.Erythromycin:Erythromycin  is used to treat certain infections that are caused by bacteria.<br>
+4.Fluoroquinolones:Fluoroquinolones are broad-spectrum antibiotics with good oral bioavailability. Their indications include treatment of urinary tract infections, pneumonia.<br>
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+             
+                <strong><p><br><Br><br>
+                    Email:</strong><br>2021pietcasimmi053@poornima.org<br><br> 2021pietcavaishnavi058.poornima.org <BR><BR>2021pietcaraksha041.poornima.org
+                </p></p>
+             
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+  
+            </ul>
+          </div>
+
+
+          </div>
+
+      </div>
+    </div>
+      </div>
+    </div>
+  </footer>
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>

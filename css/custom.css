@@ -1,0 +1,27 @@
+body {
+    padding-top: 50px; /* Padding for .navbar-fixed-top. Change value if navbar height changes. Remove if using .navbar-static-top. */
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.footer-blurb {
+    padding: 30px 0;
+	text-align: center;
+    background-color: rgb(2, 49, 78);
+}
+
+.footer-blurb h3 {
+    color: rgb(2, 2, 51);
+    }
+    
+.footer-blurb-item {
+    padding: 30px 0;
+    }
+ 
+.copyright {
+	background-color: rgb(178, 232, 255);
+	text-align: center;
+	padding: 30px 0;
+}

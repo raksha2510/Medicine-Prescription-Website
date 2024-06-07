@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/coffeehouse.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="index.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="about.html" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+  </div>
+</div>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">DIABETES</span></h5>
+    <img src="https://www.narayanahealth.org/blog/wp-content/uploads/2021/06/Diabetes-Mellitus.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>
+What is Diabetes?
+    </strong>
+    <p>Diabetes is a chronic health condition that affects how your body turns into energy. Your body breaks down most of the food you eat into sugar and releases it into your bloodstream.When your blood sugar goes up, it signals your pancreas to release insulin. Insulin acts like a key to let the blood sugar into your body’s cells for use as energy.<br>
+        Types of Diabetes-<br>
+        Type 1: Type 1 diabetes is an autoimmune disease. The immune system attacks and destroys cells in the pancreas, where insulin is made. It’s unclear what causes this attack.<br>
+        Type 2: Type 2 diabetes occurs when your body becomes resistant to insulin, and sugar builds up in your blood.<br>
+        Gestational: Gestational diabetes is high blood sugar during pregnancy. Insulin-blocking hormones produced by the placenta cause this type of diabetes.
+        </p>
+    </p>
+    <p><strong>What are the symptoms of Diabetes?</strong><br>
+        Very thirsty<br>
+        Lose weight <br>
+        Very hungry<br>
+        Blurry vision<br>
+        Urinate a lot<br>
+        Have dry skin<br>
+        Feel very tired<br>
+        </p>
+        <p><strong>What causes Diabetes?</strong></p>
+        For some reason, the immune system mistakenly attacks and destroys insulin-producing beta cells in the pancreas.<br>
+        The placenta produces hormones that make a pregnant person’s cells less sensitive to the effects of insulin. This can cause high blood sugar during pregnancy.
+        <br>
+<p><strong>
+    What are the diagnosis and precautions to take at home?
+    </strong></p>
+    Diet and exercise can help some people to manage their diabetes.<br>
+    For proper diagnosis for diabetes , individuals must consult a doctor and take the required treatment.<br>
+    Insulin is the main treatment for dabetes.It replaces the hormone your body isn’t able to produce.
+    
+<p><strong>What are the prescribed medicines for Viral Fever?</strong></p>
+Glimepiride (Amaryl):It belongs to a class of drugs called antidiabetics.<br>
+It causes side effects such as:pale or yellow skin,headache,weakness,fever,etc.<br>
+Gliclazide:It’s used to treat type-2 diabetes.
+It causes side effects such as:stomach ache,feeling sick,diarrhoea,etc.<br>
+Glipizide:It’s used along with diet and to treat type 2 diabetes.
+It causes side effects such as:dizziness,rash,gas,fever,sore throat,etc.<br>
+Glyburide (Glynase):It is a diabetes medicine used to help control blood sugar levels and treat type 2 diabetes.
+It causes side effects such as:rash,joint pain,weight gain,vomiting,etc.
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+             
+                <strong><p><br><Br><br>
+                    Email:</strong><br>2021pietcasimmi053@poornima.org<br><br> 2021pietcavaishnavi058.poornima.org <BR><BR>2021pietcaraksha041.poornima.org
+                </p></p>
+             
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+  
+            </ul>
+          </div>
+
+
+          </div>
+
+      </div>
+    </div>
+      </div>
+    </div>
+  </footer>
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>

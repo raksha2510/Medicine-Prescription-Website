@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/coffeehouse.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="index.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="about.html" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+  </div>
+</div>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">POLIO</span></h5>
+    <img src="https://www.pediatriconcall.com/master/bucket-img/277-polio-vaccine/polio-vaccine-1.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>
+What is Polio?
+    </strong>
+    <p> <br>
+      Polio is a highly infectious viral disease that largely affects children under 5 years of age. The virus is transmitted from one person to another.It spread mainly through the faecal-oral route or, less frequently, by contaminated water or food and multiplies in the intestine, from where it can invade the nervous system and cause paralysis.
+
+        </p>
+    </p>
+    <p><strong>What are the symptoms of Polio?</strong><br>
+      Paralysis<br>
+      Meningitis (infection of the covering of the spinal cord and/or brain)<br>
+      Sore throat<br>
+      Fever<br>
+      Tiredness<br>
+      Nausea<br>
+      Headache<br>
+      Stomach pain<br>
+
+        </p>
+        <p><strong>What causes Polio?</strong></p>
+        Polio virus lives in an infected person’s throat and intestines.It enters the body through the mouth. <br>
+        It spreads through contact with the faeces (poop) of an infected person.Droplets from a sneeze or cough of an infected person (less common).An infected person can spread the virus to others immediately before and up to 2 weeks after symptoms appear.People who don’t have symptoms can still pass the virus to others and make them sick.
+        <br>
+<p><strong>
+    What are the diagnosis and precautions to take at home?
+    </strong></p>
+    Practicing good hand hygiene and washing hands often with soap and water can prevent polio virus in children.Other than that it requires specific treatment.
+
+<p><strong>What are the prescribed medicines for Viral Fever?</strong></p>
+There are two types of vaccine that can prevent polio:<br>
+1.Inactivated poliovirus vaccine (IPV):Inactivated poliovirus vaccine (IPV) protects people against all three types of poliovirus. IPV does not contain live virus, so people who receive this vaccine do not shed the virus and cannot infect others, and the vaccine cannot cause disease.<br>
+2.Oral poliovirus vaccine (OPV):OPV produces antibodies in the blood to all three types of poliovirus, and in the event of infection, this protects the individual against polio paralysis by preventing the spread of poliovirus to the nervous system.
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+             
+                <strong><p><br><Br><br>
+                    Email:</strong><br>2021pietcasimmi053@poornima.org<br><br> 2021pietcavaishnavi058.poornima.org <BR><BR>2021pietcaraksha041.poornima.org
+                </p></p>
+             
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+  
+            </ul>
+          </div>
+
+
+          </div>
+
+      </div>
+    </div>
+      </div>
+    </div>
+  </footer>
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>

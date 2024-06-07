@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/coffeehouse.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="index.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="about.html" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="w3-sand w3-grayscale w3-large">
+
+
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">BIRDFLU</span></h5>
+    <img src="https://st3.depositphotos.com/7341970/18504/v/450/depositphotos_185047936-stock-illustration-multiethnic-team-doctor-nurses-standing.jpg">
+    <p><strong>
+What is Birdflu?
+    </strong>
+    <p> <br>
+      
+      Bird flu refers to the disease caused by infection with avian (bird) influenza (flu). These viruses naturally spread among wild aquatic birds worldwide and can infect domestic poultry and other bird and animal species. Bird flu viruses do not normally infect humans.
+
+        </p>
+    </p>
+    <p><strong>What are the symptoms of birdflu?</strong><br>
+      Cough
+Fever
+Sore throat
+Muscle ache
+Headache
+Shortness of breath
+
+
+
+        </p>
+        <p><strong>What causes birdflu?</strong></p>
+      
+        Bird flu occurs naturally in wild waterfowl and can spread into domestic poultry, such as chickens, turkeys, ducks and geese. The disease is transmitted via contact with an infected bird's faeces, or secretions from its nose, mouth or eyes.
+
+        Open-air markets, where eggs and birds are sold in crowded and unsanitary conditions, are hotbeds of infection and can spread the disease into the wider community.
+        
+        
+
+        <br>
+<p><strong>
+    What are the diagnosis and precautions to take at home?
+    </strong></p>
+    Properly handling and cooking poultry and eggs to an internal temperature of 165˚F kills bacteria and viruses, including bird flu viruses. People should handle raw poultry hygienically and cook all poultry and poultry products (including eggs) all the way before eating.
+<p><strong>What are the prescribed medicines for birdflu?</strong></p>
+
+The medications used to treat bird flu include: 
+Tamiflu (oseltamivir) :Tamiflu (oseltamivir phosphate) is an antiviral drug. It works by attacking the flu virus to keep it from multiplying in your body and by reducing the symptoms of the flu. Tamiflu can sometimes keep you from getting the flu if you take it before you get sick.
+Relenza (zanamivir):Relenza is FDA-approved to treat the flu in adults and in children ages 7 years and older. Specifically, Relenza is approved to treat the flu caused by the influenza A or influenza B virus. For this purpose, a person must have had flu symptoms for no more than 48 hours.
+Rapivab (peramivir):Rapivab is a brand-name prescription medication. It's FDA-approved to treat influenza (the flu) in people ages 2 years and older. Rapivab should only be used in people with the flu who haven't had symptoms for longer than 2 days.
+
+
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+             
+                <strong><p><br><Br><br>
+                    Email:</strong><br>2021pietcasimmi053@poornima.org<br><br> 2021pietcavaishnavi058.poornima.org <BR><BR>2021pietcaraksha041.poornima.org
+                </p></p>
+             
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+  
+            </ul>
+          </div>
+
+
+          </div>
+
+      </div>
+    </div>
+      </div>
+    </div>
+  </footer>
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>

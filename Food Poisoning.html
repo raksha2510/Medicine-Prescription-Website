@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/coffeehouse.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="index.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="about.html" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+  </div>
+</div>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">FOOD POISONING</span></h5>
+    <img src="https://static01.nyt.com/images/2018/05/29/science/29BRODY/merlin_138529971_653465a9-9bf1-47b2-99dc-f5a62db4ce3d-superJumbo.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>
+What is Food Poisoning?
+    </strong>
+    <p>Food poisoning is an illness caused by eating contaminated food.It's not usually serious and most people get better within a few days without treatment.In most cases of food poisoning, the food is contaminated by bacteria or by virus, such as salmonella.
+        </p>
+    </p>
+    <p><strong>What are the symptoms of Food Poisoning?</strong><br>
+        1.Vomiting<br>
+        2.Diarrhoea<br>
+        3.Stomach cramps and abdominal pain<br>
+        4.A lack of energy and weakness<br>
+        5.Loss of appetite<br>
+        6.Fever<br>
+        7.Aching muscles<br>
+        </p>
+        </p>
+        <p><strong>What causes Food Poisoning?</strong></p>
+        This is especially troublesome for raw, ready-to-eat foods, such as salads or other produce. Because these foods aren't cooked, harmful organisms aren't destroyed before eating and can cause food poisoning.
+        <br>
+<p><strong>
+    What are the diagnosis and precautions to take at home?
+    </strong></p>
+    Drinking plenty of liquids,ensuring fluid intake even if vomiting persists, by sipping small amounts of water or allowing ice cubes to melt in the mouth,gradually starting to eat again.
+<p><strong>What are the prescribed medicines for Viral Fever?</strong></p>
+Imodium (loperamide):Imodium is a prescription medicine used to treat the symptoms of diarrhoea.<br>
+Pepto-Bismol (bismuth subsalicylate):Bismuth subsalicylate is used to treat diarrhoea and upset stomach in adults,children and older. Bismuth subsalicylate is in a class of medications called antidiarrheal agents.	
+Kaopectate: It is used to treat diarrhoea and upset stomach.<br>	
+Pedialyte:Pedialyte is an over the counter oral rehydration drink that’s effective for all age group.<br>
+It targets electrolyte imbalances caused by dehydration. 
+
+
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+             
+                <strong><p><br><Br><br>
+                    Email:</strong><br>2021pietcasimmi053@poornima.org<br><br> 2021pietcavaishnavi058.poornima.org <BR><BR>2021pietcaraksha041.poornima.org
+                </p></p>
+             
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+  
+            </ul>
+          </div>
+
+
+          </div>
+
+      </div>
+    </div>
+      </div>
+    </div>
+  </footer>
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>

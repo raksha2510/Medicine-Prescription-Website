@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Meditreat</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/coffeehouse.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="index.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="about.html" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+  </div>
+</div>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ALLERGIES</span></h5>
+    <img src="https://cdn.dribbble.com/users/82373/screenshots/8513326/media/5f4c1a8683e433f798d17eb5bcfa65bd.jpg?compress=1&resize=400x300" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>
+What is Allergies?
+    </strong>
+    <p> <br>
+      Allergies occur when your immune system reacts to a foreign substance such as pollen,bee venom or a food that doesn't cause a reaction in most people. Your immune system produces substances known as antibodies.When you have allergies, your immune system make antibodies that identify a particular allergen as harmful,even though it isn’t. When you come into contact with the allergen, your immune system reaction can inflame your skin,airways or digestive system.
+
+
+        </p>
+    </p>
+    <p><strong>What are the symptoms of Allergies?</strong><br>
+Allergies symptoms, which depend on the substance involved, can affect your airways and nasal passages,skin and digestive system. 
+1.Sneezing<BR>
+2.Itching of the nose,eyes<BR>
+3.Face swelling <BR>
+4.Runny,stuffy nose<BR>
+5.Hives<BR>
+6.Cough<BR>
+
+        </p>
+        <p><strong>What causes Allergies?</strong></p>
+        Airborne allergens, such as pollen, animal dander, dust mites and mold.<BR>
+        Certain foods, particularly peanuts, tree nuts, wheat, soy, fish, shellfish, eggs and milk.<BR>
+        Insect stings, such as from a bee or wasp.<BR>
+        Medications, particularly penicillin or penicillin-based antibiotics.<BR>
+                
+        <br>
+<p><strong>
+    What are the diagnosis and precautions to take at home?
+    </strong></p>
+    Home remedies for allergies:<BR>
+    1.Butterbur<BR>
+    2.Honey<BR>
+    3.Saline nasal irrigation<BR>
+    For proper diagnosis for allergies, individuals must consult a doctor and take the required treatment.<BR>
+    
+<p><strong>What are the prescribed medicines for Allergies?</strong></p>
+1.Cetirizine:Cetirizine is an antihistamine medicine that helps the symptoms of allergies. It’s used to treat high fever.<BR>
+2.Desloratadine:Desloratadine is an antihistamine.It is used to relieve the symptoms of high fever and to treat from allergies.<BR>
+3.Fexofenadine:Fexofenadine  is an antihistamine medicine that helps the symptoms of allergies. <BR>
+4.Levocetirizine:Levocetirizine is used to relieve the symptoms of high fever and hives of the skin. It is an antihistamine that works by preventing the effects of a substance called histamine.<BR>
+5.Loratadine:Loratadine is an antihistamine medicine that helps with the symptoms of allergies.<BR>
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+             
+                <strong><p><br><Br><br>
+                    Email:</strong><br>2021pietcasimmi053@poornima.org<br><br> 2021pietcavaishnavi058.poornima.org <BR><BR>2021pietcaraksha041.poornima.org
+                </p></p>
+             
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+  
+            </ul>
+          </div>
+
+
+          </div>
+
+      </div>
+    </div>
+      </div>
+    </div>
+  </footer>
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>

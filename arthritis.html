@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/coffeehouse.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="index.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="about.html" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+  </div>
+</div>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ARTHRITIS</span></h5>
+    <img src="https://health.clevelandclinic.org/wp-content/uploads/sites/3/2019/11/arthritisDocs-1181219798-770x553.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>
+What is Arthritis?
+    </strong>
+    <p> <br>
+      Arthritis is a disease which affects our joints .Joints is the area where your bones meet and move. Arthritis usually involves pain,inflammation and breakdown of our joints.
+      Mostly affected areas of our body by arthritis are feet,hands,hips,knees,lower back.
+      
+        </p>
+    </p>
+    <p><strong>What are the symptoms of Arthritis?</strong><br>
+      1.Pain</br><br>
+      2.Redness</br><br>
+      3.Stiffness</br><br>
+      4.Swelling</br><br>
+      5.Tenderness</br><br>
+      6.Warmth</br>
+      
+        </p>
+        <p><strong>What causes Arthritis?</strong></p>
+      <br>
+        1.Arthritis is a disease which keeps transferring from one generation to another generation.</br><br>
+        2.Having a job or playing a sport which puts repeated stress on our joints is also a major cause of this disease.</br><br>
+        3.Having certain autoimmune diseases or viral infections can also lead to arthritis.</br>
+
+        <br>
+<p><strong>
+    What are the diagnosis and precautions to take at home?
+    </strong></p>
+    Arthritis requires specific medication and can not be treated at home.So,for proper diagnosis for arthritis, individuals must consult a doctor and take the required treatment
+
+<p><strong>What are the prescribed medicines for Viral Fever?</strong></p>
+Treatment for arthritis includes following:-<br>
+1.Therapies:-</br><br>
+Hydrotherapy</br><br>
+Stretching</br><br>
+Massage</br><br>
+Acupuncture</br><br>
+2.Medication:-</br><br>
+Nonsteroidal anti-inflammatory drug</br><br>
+Steroid</br><br>
+Analgesic</br><br>
+Narcotic</br><br>
+Immunosuppressive drug</br><br>
+3.Surgery</br><br>
+Hip replacement</br><br>
+Knee replacement</br><br>
+Joint replacement</br><br>
+ 
+
+
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+<footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+             
+                <strong><p><br><Br><br>
+                    Email:</strong><br>2021pietcasimmi053@poornima.org<br><br> 2021pietcavaishnavi058.poornima.org <BR><BR>2021pietcaraksha041.poornima.org
+                </p></p>
+             
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+  
+            </ul>
+          </div>
+
+
+          </div>
+
+      </div>
+    </div>
+      </div>
+    </div>
+  </footer>
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>

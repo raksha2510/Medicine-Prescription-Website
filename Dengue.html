@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/coffeehouse.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="index.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="about.html" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+  </div>
+</div>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">DENGUE</span></h5>
+    <img src="https://media.istockphoto.com/id/1225796816/vector/mosquito-the-carrier-of-dengue-fever-and-zika-virus-mosquito-control-vector-illustration.jpg?s=170667a&w=0&k=20&c=vdrenXMC_muFOjGB9yPakPJBremv4o0IkFDTWesdZAk=" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>
+What is Dengue?
+    </strong>
+    <p> <br>
+      Dengue is a mosquito-borne viral disease that has rapidly spread in world in recent years. Dengue virus is transmitted by female mosquitoes mainly of the species Aedes aegypti and, to a lesser extent, Ae. albopictus. These mosquitoes are also vectors of chikungunya, yellow fever and Zika viruses. Dengue is widespread throughout the tropics, with local variations in risk influenced by climate parameters as well as social and environmental factors.<BR>
+      Dengue causes a wide spectrum of disease. This can range from subclinical disease (people may not know they are even infected) to severe flu-like symptoms in those infected. Although less common, some people develop severe dengue, which can be any number of complications associated with severe bleeding, organ impairment and/or plasma leakage. Severe dengue has a higher risk of death when not managed appropriately.
+      
+        </p>
+    </p>
+    <p><strong>What are the symptoms of Dengue?</strong><br>
+      Headache<br>
+      Muscle, bone or joint pain<br>
+      Nausea<br>
+      Vomiting<br>
+      Pain behind the eyes<br>
+      Swollen glands<br>
+      Rash<br>
+        </p>
+        <p><strong>What causes Dengue?</strong></p>
+        You can't get dengue fever from being in touch with an infected person. Instead, dengue fever  spreads through mosquito bites.When a mosquito bites an infected person, the virus enters the mosquito. Then, when the infected mosquito bites another person, the virus enters that person's body and causes an infection.<br>
+        <br>
+        The other main causes of dengue fever can be:-<br>
+1.You live or travel in tropical areas.<br>
+2.You have had dengue fever in the past. 
+
+<p><strong>
+    What are the diagnosis and precautions to take at home?
+    </strong></p>
+    1.Stay in air-conditioned or well-screened housing. <br>
+	2.Wear protective clothing.<br>
+	3.Use mosquito repellent. <br>
+	4.Reduce mosquito habitat.
+
+<p><strong>What are the prescribed medicines for Viral Fever?</strong></p>
+There is no specific medicine to treat dengue.You can take paracetamol to reduce fever and for pain relief. Drink plenty of fluids. Rest as much as possible.
+
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+             
+                <strong><p><br><Br><br>
+                    Email:</strong><br>2021pietcasimmi053@poornima.org<br><br> 2021pietcavaishnavi058.poornima.org <BR><BR>2021pietcaraksha041.poornima.org
+                </p></p>
+             
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+  
+            </ul>
+          </div>
+
+
+          </div>
+
+      </div>
+    </div>
+      </div>
+    </div>
+  </footer>
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/coffeehouse.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="index.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="about.html" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+  </div>
+</div>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">MALARIA</span></h5>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThDlZu4jZlBcqw6mSk52fiHn5cVtNSL6nRXw&usqp=CAU" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>
+What is Malaria?
+    </strong>
+    <p> <br>
+        Malaria is an acute febrile illness caused by Plasmodium parasites, which are spread to people through the bites of infected female Anopheles mosquitoes. There are 5 parasite species that cause malaria in humans, and 2 of these species – P. falciparum and P. vivax – pose the greatest threat. P. falciparum is the deadliest malaria parasite and the most prevalent on the African continent. P. vivax is the dominant malaria parasite in most countries outside of sub-Saharan Africa.
+
+        </p>
+    </p>
+    <p><strong>What are the symptoms of Malaria?</strong><br>
+        fever<br>
+        headache<br> 
+        chills<br>
+        Nausea and vomiting<br>
+        Diarrhea<br>
+        Abdominal pain<br>
+        Muscle or joint pain<br>
+        Fatigue<br>
+        Rapid breathing<br>
+        Rapid heart rate<br>
+        Cough
+        </p>
+        <p><strong>What causes Malaria?</strong></p>
+        Malaria is caused by a single-celled parasite of the genus plasmodium. The parasite is transmitted to humans most commonly through mosquito bites.
+        <br>
+<p><strong>
+    What are the diagnosis and precautions to take at home?
+    </strong></p>
+    1.Cover your skin<br>
+	2.Apply insect repellent to skin<BR>
+3.Sleep under a net.<br>
+
+<p><strong>What are the prescribed medicines for Viral Fever?</strong></p>
+1.Artemisinin drugs:Artemisinin is effective against all the malaria-causing protozoal organisms in the genus Plasmodium. The drug is particularly useful in the treatment of the deadliest of the malaria protozoans.<br>
+2.Atovaquone:It is useful in the treatment of malaria.<br>
+3.Chloroquine:Chloroquine belongs to a group of medicines known as antimalarials. It works by preventing or treating malaria, a red blood cell infection transmitted by the bite of a mosquito.<br>
+4.Doxycycline:It is treat bacterial infections in different parts of body.<br>
+5.Mefloquine:Mefloquine can be prescribed for prevention of malaria.<bR>
+6.Quinine:Quinine is used to treat malaria caused by plasmodium falciparum.
+
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+             
+                <strong><p><br><Br><br>
+                    Email:</strong><br>2021pietcasimmi053@poornima.org<br><br> 2021pietcavaishnavi058.poornima.org <BR><BR>2021pietcaraksha041.poornima.org
+                </p></p>
+             
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+  
+            </ul>
+          </div>
+
+
+          </div>
+
+      </div>
+    </div>
+      </div>
+    </div>
+  </footer>
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>

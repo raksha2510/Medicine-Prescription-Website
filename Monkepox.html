@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/coffeehouse.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="index.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="about.html" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+  </div>
+</div>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">MONKEYPOX</span></h5>
+    <img src="https://cloudfront-us-east-2.images.arcpublishing.com/reuters/E5IF7D4F5VPWPO2QP5AGJGBMAM.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>
+What is Monkeypox?
+    </strong>
+    <p> <br>
+      Monkeypox is an illness caused by the monkeypox virus. It is a viral zoonotic infection, meaning that it can spread from animals to humans. It can also spread from humans to other humans and from the environment to humans.
+
+        </p>
+    </p>
+    <p><strong>What are the symptoms of monkeypox?</strong><br>
+      Fever 
+Chills
+Swollen lymph nodes
+Exhaustion
+Headache
+Respiratory symptoms
+
+        </p>
+        <p><strong>What causes monkeypox?</strong></p>
+      
+        Monkeypox is spread when you come into contact with an animal or a person infected with the virus. Animal-to-person transmission occurs through broken skin, like from bites or scratches, or through direct contact with an infected animal’s blood, bodily fluids or pox lesions (sores).
+
+        <br>
+<p><strong>
+    What are the diagnosis and precautions to take at home?
+    </strong></p>
+    Monkeypox Preventions:
+Avoid close, skin-to-skin contact with people who have a rash that looks like monkeypox
+Avoid contact with objects and materials that a person with monkeypox has used
+Wash your hands often.
+Get vaccinated
+
+<p><strong>What are the prescribed medicines for monkeypox?</strong></p>
+
+The medical countermeasures currently available from the Strategic National Stockpile (SNS) as options for the treatment of monkeypox include tecovirimat, brincidofovir, and vaccinia immune globulin. 
+Tecovirimat:Tecovirimat is FDA-approved for the treatment of human smallpox disease caused by Variola virus in adults and children. However, its use for other orthopoxvirus infections, including monkeypox.
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+             
+                <strong><p><br><Br><br>
+                    Email:</strong><br>2021pietcasimmi053@poornima.org<br><br> 2021pietcavaishnavi058.poornima.org <BR><BR>2021pietcaraksha041.poornima.org
+                </p></p>
+             
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+  
+            </ul>
+          </div>
+
+
+          </div>
+
+      </div>
+    </div>
+      </div>
+    </div>
+  </footer>
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
